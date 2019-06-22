@@ -1,0 +1,108 @@
+
+body{
+  margin: auto 4rem;
+}
+section {
+  .section-w {
+    background-color: $color-blue;
+    height: 800px;
+
+    .awesome {
+      display: flex;
+      margin-top: -9rem;
+      justify-content: center;
+      font-family: $font-family-multi;
+      color: white;
+      font-size: 3rem;
+    }
+
+    .double {
+      display: flex;
+      justify-content: center;
+      color: $color-white-transparent;
+      font-size: 10vw;
+      font-family: "Roboto", sans-serif;
+    }
+
+
+    .feature-one-block {
+      font-family: $font-family-multi;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: justify;
+      height: 18.75em;
+      width: 18.75em;
+
+      h1, p {
+        color: $color-white;
+      }
+    }
+
+    .feature-one {
+      background-color: $color-white-transparent;
+      display: flex;
+      align-items: center;
+      border-radius: 50%;
+      width: 8rem;
+      height: 8rem;
+    }
+
+    .feature__all-blocks {
+      display: flex;
+      margin: 11em 8rem;
+    }
+  }
+  //AKITA INU DOG
+  .content {
+    display: flex;
+    align-items: center;
+    background: #222222;
+    height: 28em;
+    color: $color-white;
+    .img{
+      margin: 0;
+      display: flex;
+      width: 50%;
+      height: 100%;
+    }
+
+    .block-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      font-family: $font-family-multi;
+      width: 31.25em;
+      height: 18.75em;
+
+      p.date{
+        font-size: 0.68rem;
+      }
+    }
+  }
+
+  .content-second {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: #f3f3f3;
+    height: 28em;
+    color: #222222;
+
+    .img{
+      margin: 0;
+      display: flex;
+      width: 50%;
+      height: 100%;
+    }
+    .block-text-second {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      font-family: $font-family-multi;
+      width: 31.25em;
+      height: 18.75em;
+    }
+  }
+
+}

@@ -1,0 +1,141 @@
+//SECTION-B
+.section-two {
+
+  .section-b {
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 3rem 0 0;
+
+
+    .b-blog {
+      display: flex;
+      justify-content: center;
+    }
+
+    .lets {
+      display: flex;
+      margin-top: -8rem;
+      justify-content: space-evenly;
+      font-family: $font-family-multi;
+      color: #000000;
+      font-size: 3rem;
+    }
+
+    .digital-text{
+      display: flex;
+      justify-content: center;
+      margin-top: 7rem;
+      font-family: $font-family-multi;
+      color: #222222;
+    }
+
+    //LETS BLOCKS
+    .lets__all-blocks {
+      display: flex;
+      margin: 6em 8em;
+    }
+
+    .lets-one-block {
+      font-family: $font-family-multi;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: justify;
+      height: 30em;
+      width: 17em;
+
+      .fresh{
+        font-family: $font-family-Ro;
+        color: #222222;
+        font-size: 1.3rem;
+      }
+
+    }
+  }
+
+  .section-b__features{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 22em;
+    background: $color-blue;
+    color: $color-white;
+  }
+
+  .icon-with-text{
+    display: flex;
+    margin: 0 2rem;
+    width: 35rem;
+    height: 5rem;
+
+    p{
+      display: flex;
+      justify-content: space-around;
+    }
+    img{
+      height: 4rem;
+      padding-right: 2rem;
+    }
+  }
+}
+
+//SECTION BLOCK-B LAST
+.section-b__last{
+  height:850px;
+  background-image: url('../img/parallax.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+
+  .section-b__last-text{
+    margin-left: 12rem;
+    color: white;
+    width: 28rem;
+    height: 26rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    h1{
+      margin-left: .1rem;
+    }
+
+    &-block-a{
+      margin-left: .1rem;
+      font-family: $font-family-multi;
+      width: 20rem;
+      background: $color-blue;
+      font-size: .8rem;
+      padding: .5rem;
+    }
+    &-block-b{
+      margin-left: .1rem;
+      font-family: $font-family-multi;
+      width: 23rem;
+      background: $color-blue;
+      font-size: .8rem;
+      padding: .5rem;
+    }
+    &-block-c{
+      margin-left: .1rem;
+      font-family: $font-family-multi;
+      width: 26rem;
+      background: $color-blue;
+      font-size: .8rem;
+      padding: .5rem;
+    }
+  }
+
+}
+
+
+
+
+
+
+

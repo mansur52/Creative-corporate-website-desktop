@@ -1,0 +1,67 @@
+.section-t {
+  background-color: $color-white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 3rem 0 0;
+
+
+  &__blog {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team {
+    display: flex;
+    margin-top: -8rem;
+    justify-content: space-evenly;
+    font-family: $font-family-multi;
+    color: #000000;
+    font-size: 3rem;
+  }
+
+  &__text{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    font-family: $font-family-multi;
+    color: #222222;
+  }
+
+  //LETS BLOCKS
+  &__all-blocks {
+    display: flex;
+    margin: 6em 11em;
+  }
+
+  &__block {
+    font-family: $font-family-multi;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    height: 28em;
+    width: 17em;
+
+
+    .about-team{
+      font-family: $font-family-Ro;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-around;
+      color: $color-blue;
+      font-size: 1.3rem;
+      width: 13rem;
+      height: 4rem;
+      background: #ffffff;
+      position: absolute;
+      z-index: 1;
+      margin: 23rem 2rem;
+
+      p{
+        color: #222222;
+      }
+    }
+  }
+}
